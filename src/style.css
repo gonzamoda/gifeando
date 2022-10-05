@@ -1,0 +1,178 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  min-height: 900px;
+  background-color: #5ac2e8;
+}
+
+#buscador {
+  background-color: white;
+  opacity: 100%;
+  border-radius: 30px;
+  border: 0px;
+  color: black;
+  font-size: 1rem;
+  outline: none;
+  padding: 10px 15px;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  transition-duration: 0.5s;
+  border-color: #cc6666;
+  border-width: 3px;
+  border-style: solid;
+}
+
+h1 {
+  background-color: transparent;
+}
+
+h2 {
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+h4 {
+  background-color: transparent;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+
+.card {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 0%;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.card img {
+  width: auto;
+  height: 200px;
+}
+
+/* Search Icon */
+#searchIcon {
+  font-variation-settings: "FILL" 0, "wght" 600, "GRAD" 200, "opsz" 48;
+  font-size: 33px;
+  position: absolute;
+  background-color: transparent;
+  padding-right: 7px;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  color: #cc6666;
+}
+
+#searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 60px;
+  background-color: #5ac2e8;
+  height: 100px;
+}
+
+#searchGroup {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+@keyframes searchIconMove {
+  from {
+    margin-right: 0px;
+  }
+
+  100% {
+    margin-right: -40px;
+  }
+}
+
+@keyframes searchIconMoveBack {
+  from {
+    margin-right: -40px;
+  }
+
+  100% {
+    margin-right: 0px;
+  }
+}
+
+#bar {
+  background-color: #cc6666;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  top: 0px;
+}
+
+#logoBar {
+  width: 200px;
+}
+
+#footer {
+  background-color: #525558;
+  width: 100vw;
+  height: 35px;
+  text-align: center;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  bottom: 0px;
+  font-size: small;
+}
+
+#gifPresentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#linkGonzaModa {
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+}
+
+#linkGonzaModa:hover {
+  text-decoration: none;
+  color: white;
+}
